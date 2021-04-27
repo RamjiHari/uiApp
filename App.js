@@ -19,13 +19,14 @@ import Heading from './src/Components/Heading';
 // import LatestMembers from './src/Components/LatestMembers';
 // import Mosiac from './src/Components/Mosiac';
 // import News from './src/Components/News';
-import data from './src/Components/data';
+import data from './src/utils/data';
 import Card from './src/Components/Card';
 import Grid from './src/Components/Grid';
 import Topup from './src/Components/Topup';
 import Collapsible from './src/Components/Collapsible';
 import TabView from './src/Components/TabView';
 import TabsView from './src/Components/TabsView';
+import Tab from './src/Components/Tab';
 import Sign from './src/Components/Sign';
 import Forms from './src/Components/Forms';
 
@@ -35,15 +36,12 @@ const App= ()  => {
 
     <ScrollView>
 
-<TabView/>
-        <TabsView/>
         <Heading/>
         <Card/>
         <Grid/>
         <Sign/>
-        <Collapsible/>
         <Topup/>
-
+        <Tab/>
         <Forms/>
 
         </ScrollView>

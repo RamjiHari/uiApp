@@ -42,6 +42,9 @@ export default function Forms() {
       }
     return (
         <View style={styles.container}>
+        <Text style={{paddingTop:10,fontWeight:'bold',fontSize:22,textAlign:'center'}}>
+        Form
+      </Text>
         <Input placeholder="fname"  handleText={val => onChangeText('fname', val)}/>
         <Input placeholder="Username"  handleText={val => onChangeText('username', val)}/>
         <Input placeholder="Password" secureTextEntry={true}  handleText={val => onChangeText('password', val)}/>

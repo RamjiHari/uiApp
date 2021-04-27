@@ -8,7 +8,7 @@ export default data = [
         headline: "The 6th edition of the body painting",
         user_avatar:"https://i.pravatar.cc/400?img=1",
         username:"Angelina",
-        menu:'Apply New Topup',
+        menu:'Overdue FAs ',
         bank:'bank',
         products:[{
             ids:"1",
@@ -44,7 +44,7 @@ export default data = [
         headline:"20 photography tips for taking pictures",
         user_avatar:"https://i.pravatar.cc/400?img=2",
         username:"Jonny_124",
-        menu:'Topup productsts',
+        menu:'Due Today FAs',
         bank:'bank-remove',
         products:[{
             ids:"1",
@@ -80,7 +80,7 @@ export default data = [
         headline:"Tottenham: NFL turf is in place",
         user_avatar:"https://i.pravatar.cc/400?img=3",
         username:"codeNesta",
-        menu:'List Past Topup',
+        menu:'Generate Customer Agreement',
         bank:'bank-plus',
         products:[{
             ids:"1",
@@ -116,7 +116,7 @@ export default data = [
         headline:"Most beautiful beach of the costa brava",
         user_avatar:"https://i.pravatar.cc/400?img=4",
         username:"ML_Crusta",
-        menu:'View Current Agreements',
+        menu:'Register Customer',
         bank:'bank-minus',
         products:[{
             ids:"1",
@@ -153,7 +153,7 @@ export default data = [
         headline:"Was Greg Craig's prosecution political",
         user_avatar:"https://i.pravatar.cc/400?img=5",
         username:"Ever_Nes",
-        menu:'Customer Success',
+        menu:'Search Customer',
         bank:'piggy-bank',
         products:[{
             ids:"1",

@@ -14,7 +14,7 @@ import {
   ScrollView,
   ImageBackground
 } from 'react-native';
-import data from './data';
+import data from '../utils/data';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Grid= ()  => {

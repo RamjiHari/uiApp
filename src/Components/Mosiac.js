@@ -14,7 +14,7 @@ import {
   ScrollView,
   ImageBackground
 } from 'react-native';
-import data from './data';
+import data from '../utils/data';
 import LinearGradient from 'react-native-linear-gradient';
 
 

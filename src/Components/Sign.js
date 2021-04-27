@@ -7,6 +7,9 @@ export default function Sign() {
   const [text,setText] = useState('')
   return (
     <>
+    <Text style={{paddingTop:10,fontWeight:'bold',fontSize:22,textAlign:'center'}}>
+        Sign Agreement
+      </Text>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{ flex: 1,marginTop:50}}>
         <SignatureView

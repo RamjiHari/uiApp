@@ -14,7 +14,7 @@ import {
   Image,
   ScrollView
 } from 'react-native';
-import data from './data';
+import data from '../utils/data';
 
 
 const LatestMembers= ()  => {

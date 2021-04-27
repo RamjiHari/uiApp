@@ -14,7 +14,7 @@ import {
   ScrollView,
   ImageBackground
 } from 'react-native';
-import product from './product';
+import product from '../utils/product';
 
 
 const Topup= ()  => {

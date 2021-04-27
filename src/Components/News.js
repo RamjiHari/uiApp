@@ -15,7 +15,7 @@ import {
   Dimensions,
   FlatList
 } from 'react-native';
-import data from './data';
+import data from '../utils/data';
 
 const News= ()  => {
   const datas=data;
