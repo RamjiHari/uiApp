@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 import {Avatar} from 'react-native-paper';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import { Colors } from './Colors';
+import { Colors } from '../utils/Colors';
 
 
 const Heading= ()  => {
@@ -26,7 +26,7 @@ const Heading= ()  => {
           <MaterialCommunityIcons name="menu" size={30}  color='#000'/>
       </View>
       <View>
-        <Image source={require('./flowlogo.png')} style={{width:200,height:50}} />
+        <Image source={require('../images/flowlogo.png')} style={{width:200,height:50}} />
       </View>
       <View>
       <Avatar.Image

@@ -1,6 +1,6 @@
 import React, {Component,useState} from 'react';
 import { View, TouchableOpacity, Text, FlatList, StyleSheet, LayoutAnimation, Platform, UIManager, VirtualizedList, ScrollView, SafeAreaView,} from "react-native";
-import { Colors } from './Colors';
+import { Colors } from '../utils/Colors';
 import Icon from "react-native-vector-icons/MaterialIcons";
 
 const Accordian = (props) => {

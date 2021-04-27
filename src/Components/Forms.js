@@ -9,8 +9,8 @@ import {
 import CheckBox from '@react-native-community/checkbox';
 import {Picker} from '@react-native-picker/picker';
 import { RadioButton } from 'react-native-paper';
-import Input from './Components/Input';
-import Selector from './Components/Selector';
+import Input from './Input';
+import Selector from './Selector';
 export default function Forms() {
 
     const [state, setstate] = useState({

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { StyleSheet, View,Text, SafeAreaView} from 'react-native';
 import Accordian from './Accordian'
-import { Colors } from './Colors';
+import { Colors } from '../utils/Colors';
 
 const Collapsible = () => {
     const menu=[

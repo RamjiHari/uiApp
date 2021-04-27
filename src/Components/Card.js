@@ -18,7 +18,7 @@ import {
 } from 'react-native';
 import {Avatar} from 'react-native-paper';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import { Colors } from './Colors';
+import { Colors } from '../utils/Colors';
 {/* <Text style={{fontWeight:'bold',fontSize:32,marginLeft:10,color:'#fff'}}>
             Hi Joel!
         </Text> */}

@@ -14,54 +14,40 @@ import {
   Text,
   View
 } from 'react-native';
-import Heading from './Heading';
-import Hero from './Hero';
-import LatestMembers from './LatestMembers';
-import Mosiac from './Mosiac';
-import data from './data';
-import News from './News';
-import Card from './Card';
-import Grid from './Grid';
-import Topup from './Topup';
-import Collapsible from './Collapsible';
-import TabView from './TabView';
-import TabsView from './TabsView';
-import Sign from './Sign';
-import Forms from './Forms';
+import Heading from './src/Components/Heading';
+// import Hero from './src/Components/Hero';
+// import LatestMembers from './src/Components/LatestMembers';
+// import Mosiac from './src/Components/Mosiac';
+// import News from './src/Components/News';
+import data from './src/Components/data';
+import Card from './src/Components/Card';
+import Grid from './src/Components/Grid';
+import Topup from './src/Components/Topup';
+import Collapsible from './src/Components/Collapsible';
+import TabView from './src/Components/TabView';
+import TabsView from './src/Components/TabsView';
+import Sign from './src/Components/Sign';
+import Forms from './src/Components/Forms';
 
 const App= ()  => {
   const datas=data
   return (
+
     <ScrollView>
 
-      <View>
+<TabView/>
+        <TabsView/>
         <Heading/>
         <Card/>
         <Grid/>
+        <Sign/>
         <Collapsible/>
         <Topup/>
-        <TabView/>
-        <TabsView/>
+
         <Forms/>
-        <Sign/>
-       <Hero/>
-        <LatestMembers/>
-        <View style={{paddingBottom:100}}></View>
-      </View>
-    <View>
-      <Text style={{paddingTop:10,fontWeight:'bold',fontSize:22}}>
-        Monday
-      </Text>
-    </View>
-    <Mosiac/>
-    <Text style={{paddingLeft:6,fontWeight:'bold',fontSize:22,marginTop:10}}>
-        News
-      </Text>
 
+        </ScrollView>
 
-      <News/>
-
-   </ScrollView>
   );
 };
 
