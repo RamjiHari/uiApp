@@ -57,6 +57,8 @@ const App= ()  => {
     <Text style={{paddingLeft:6,fontWeight:'bold',fontSize:22,marginTop:10}}>
         News
       </Text>
+
+
       <News/>
 
    </ScrollView>
