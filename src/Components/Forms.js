@@ -5,6 +5,7 @@ import {
   TextInput,
   StyleSheet,
   Text,
+  ScrollView
 } from 'react-native'
 import CheckBox from '@react-native-community/checkbox';
 import {Picker} from '@react-native-picker/picker';
@@ -41,6 +42,7 @@ export default function Forms() {
         }
       }
     return (
+      <ScrollView>
         <View style={styles.container}>
         <Text style={{paddingTop:10,fontWeight:'bold',fontSize:22,textAlign:'center'}}>
         Form
@@ -86,6 +88,7 @@ export default function Forms() {
           onPress={signUp}
         />
       </View>
+      </ScrollView>
     )
 
 }

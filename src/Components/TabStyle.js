@@ -2,10 +2,7 @@ import { StyleSheet ,Dimensions} from 'react-native';
 
 const { width, height } = Dimensions.get("screen");
 export default StyleSheet.create({
-    header:{
 
-        height:80,
-      },
       container: {
         flex: 1,
         backgroundColor: "#fff",
@@ -31,7 +28,7 @@ export default StyleSheet.create({
         marginTop:20,
       },
       bodyContent: {
-        flex: 1,
+
         alignItems: 'center',
         padding:30,
       },
@@ -47,7 +44,7 @@ export default StyleSheet.create({
       listTab:{
         flexDirection:'row',
         alignSelf:'center',
-        marginTop:10,
+
       },
       btnTab:{
         width:Dimensions.get('window').width/3.5,
