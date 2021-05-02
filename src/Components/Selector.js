@@ -11,7 +11,7 @@ export default function Selector(props) {
     return (
         <View>
             <Picker
-        style={{ height: 50, width: 150 }}
+        style={{ height: 50, width: '100%' }}
         onValueChange={props.handleChange}
         >
         <Picker.Item label="Options"/>

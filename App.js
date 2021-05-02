@@ -35,6 +35,7 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import OverDue from './src/Components/OverDue';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {Colors} from './src/utils/Colors';
+import RegForm from './src/Components/RegForm';
 const App= ()  => {
   const Tab = createMaterialBottomTabNavigator();
   return (
@@ -87,7 +88,7 @@ const App= ()  => {
       />
       <Tab.Screen
         name="Explore"
-        component={TabSearch}
+        component={RegForm}
         options={{
           tabBarLabel: 'Explore',
           tabBarIcon: ({ color }) => (
